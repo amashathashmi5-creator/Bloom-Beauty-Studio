@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bloom Beauty Studio - Luxury beauty, bespoke hair styling, holistic skincare rituals, and nail couture. A serene sanctuary of elegance.">
+  <meta name="theme-color" content="#FAF7F2">
+  <title>Bloom Beauty Studio | Luxury Salon & Spa Sanctuary</title>
+  
+  <!-- Favicon (SVG Data URI for crisp luxury icon) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
+
+  <!-- Google Fonts: Cormorant Garamond (luxury serif) & Plus Jakarta Sans (clean modern sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons for polished luxury iconography -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-banner">
+    <div class="container banner-container">
+      <p class="banner-text">
+        <span class="sparkle">✦</span> Fictional Luxury Concept • Autumn Rituals Now Open for Preview Booking <span class="sparkle">✦</span>
+      </p>
+      <div class="banner-badge">Sample Demo Website</div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Bloom Beauty Studio Home">
+        <span class="logo-symbol">✦</span>
+        <span class="logo-text">
+          <span class="logo-main">BLOOM</span>
+          <span class="logo-sub">BEAUTY STUDIO</span>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action -->
+      <div class="header-cta">
+        <a href="#contact" class="btn btn-outline nav-book-btn">
+          <span>Reserve Visit</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileNav">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-nav-drawer" id="mobileNav" aria-hidden="true">
+      <div class="mobile-nav-inner">
+        <ul class="mobile-nav-list">
+          <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+          <li><a href="#about" class="mobile-nav-link">About Us</a></li>
+          <li><a href="#services" class="mobile-nav-link">Our Services</a></li>
+          <li><a href="#gallery" class="mobile-nav-link">Visual Gallery</a></li>
+          <li><a href="#testimonials" class="mobile-nav-link">Client Reviews</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Book Appointment</a></li>
+        </ul>
+        <div class="mobile-nav-footer">
+          <p class="mobile-phone"><i class="fa-solid fa-phone"></i> +1 (555) 782-5666</p>
+          <p class="mobile-hours"><i class="fa-regular fa-clock"></i> Mon–Sat: 9am – 7:30pm</p>
+          <a href="#contact" class="btn btn-primary btn-block mobile-drawer-btn">Book An Appointment</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-overlay"></div>
+      <div class="container hero-container">
+        <div class="hero-content fade-in-up">
+          <div class="hero-tag">
+            <span class="hero-tag-dot"></span>
+            <span>Bespoke Beauty &amp; Wellness Sanctuary</span>
+          </div>
+          <h1 class="hero-title">
+            Where Timeless Radiance <br>
+            <em>Meets Modern Luxury.</em>
+          </h1>
+          <p class="hero-description">
+            Step into a serene atelier dedicated to bespoke hair styling, restorative skincare therapies, and artisanal nail care. Crafted with botanical purity and refined artistry.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">
+              <span>Book An Appointment</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#services" class="btn btn-secondary">
+              <span>Explore Menu</span>
+            </a>
+          </div>
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <span class="highlight-num">10+</span>
+              <span class="highlight-label">Master Stylists</span>
+            </div>
+            <div class="highlight-divider"></div>
+            <div class="highlight-item">
+              <span class="highlight-num">100%</span>
+              <span class="highlight-label">Cruelty-Free Botanicals</span>
+            </div>
+            <div class="highlight-divider"></div>
+            <div class="highlight-item">
+              <span class="highlight-num">4.9★</span>
+              <span class="highlight-label">Client Satisfaction</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media-wrapper fade-in-up delay-1">
+          <div class="hero-image-card">
+            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=80" alt="Bloom Beauty Studio elegant modern interior and styling chairs" class="hero-img">
+            <div class="hero-floating-badge">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <strong>Awarded Luxury Studio</strong>
+                <span>Fictional Excellence 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="hero-scroll-indicator" aria-label="Scroll to about section">
+        <span>Discover More</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          
+          <div class="about-images-col fade-in-up">
+            <div class="about-image-stack">
+              <div class="about-img-main">
+                <img src="https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=900&q=80" alt="Bloom Beauty Studio stylist curating premium haircare" loading="lazy">
+              </div>
+              <div class="about-img-sub">
+                <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=700&q=80" alt="Luxury botanical skincare oils and creams" loading="lazy">
+              </div>
+              <div class="experience-card">
+                <span class="experience-years">8+</span>
+                <span class="experience-text">Years of Elevating Personal Elegance</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content-col fade-in-up delay-1">
+            <div class="section-tag">About Our Atelier</div>
+            <h2 class="section-title">An Oasis of Quiet Sophistication</h2>
+            <p class="section-lead">
+              Founded on the belief that beauty is an intimate expression of well-being, Bloom Beauty Studio offers an escape from the city tempo into calm, unhurried indulgence.
+            </p>
+            <p class="about-paragraph">
+              Every appointment at Bloom is designed as a personalized ritual. From custom-mixed color palettes that highlight your natural complexion to restorative facial therapies infused with organic peptides, our master artisans blend timeless techniques with contemporary science.
+            </p>
+
+            <!-- Value Pillars -->
+            <div class="about-pillars">
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <i class="fa-solid fa-seedling"></i>
+                </div>
+                <div>
+                  <h3 class="pillar-title">Clean Formulations</h3>
+                  <p class="pillar-desc">Only certified vegan, sulfate-free, and ethically sourced formulas touch your hair and skin.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <div>
+                  <h3 class="pillar-title">Custom Consultations</h3>
+                  <p class="pillar-desc">Every visit begins with a 15-minute diagnostic session tailored to your lifestyle and desires.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <i class="fa-solid fa-mug-hot"></i>
+                </div>
+                <div>
+                  <h3 class="pillar-title">Private Sanctuary</h3>
+                  <p class="pillar-desc">Complimentary organic botanical teas, champagne service, and acoustic ambient playlists.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-signature-block">
+              <div class="signature-quote">
+                "We don't merely change appearances; we reveal the calm confidence already within."
+              </div>
+              <div class="signature-author">
+                <strong>Clara Vivienne Delacroix</strong>
+                <span>Creative Director &amp; Lead Stylist (Fictional Profile)</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header text-center fade-in-up">
+          <div class="section-tag">Curated Offerings</div>
+          <h2 class="section-title">Signature Beauty Rituals</h2>
+          <p class="section-subtitle">
+            Thoughtfully tailored treatments designed to rejuvenate, refine, and illuminate. Explore our menu and reserve your bespoke session below.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- Service Card 1 -->
+          <article class="service-card fade-in-up" data-service-name="Artisan Hair Design & Balayage">
+            <div class="service-card-media">
+              <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80" alt="Artisan Hair Design and Balayage" loading="lazy">
+              <span class="service-category-badge">Hair Couture</span>
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-header">
+                <h3 class="service-name">Artisan Hair Design &amp; Balayage</h3>
+                <span class="service-price">From $190</span>
+              </div>
+              <p class="service-description">
+                Hand-painted dimensional highlights, seamless blending, precision cut, and a gloss toner sealed with deep lipid hydration.
+              </p>
+              <div class="service-meta">
+                <span><i class="fa-regular fa-clock"></i> 120 mins</span>
+                <span><i class="fa-solid fa-sparkles"></i> Includes Blowout</span>
+              </div>
+              <button type="button" class="btn btn-outline-sm select-service-btn" data-service="Artisan Hair Design & Balayage">
+                <span>Select &amp; Book</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Service Card 2 -->
+          <article class="service-card fade-in-up delay-1" data-service-name="Radiance Cellular Facial">
+            <div class="service-card-media">
+              <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80" alt="Radiance Cellular Facial Therapy" loading="lazy">
+              <span class="service-category-badge">Skincare Spa</span>
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-header">
+                <h3 class="service-name">Radiance Cellular Facial</h3>
+                <span class="service-price">From $165</span>
+              </div>
+              <p class="service-description">
+                Enzyme exfoliation, customized peptide infusion, lymphatic contour massage, and cryogenic soothing mask for luminous glass skin.
+              </p>
+              <div class="service-meta">
+                <span><i class="fa-regular fa-clock"></i> 75 mins</span>
+                <span><i class="fa-solid fa-droplet"></i> Deep Hydration</span>
+              </div>
+              <button type="button" class="btn btn-outline-sm select-service-btn" data-service="Radiance Cellular Facial">
+                <span>Select &amp; Book</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Service Card 3 -->
+          <article class="service-card fade-in-up delay-2" data-service-name="Cashmere Nail Spa & Couture">
+            <div class="service-card-media">
+              <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80" alt="Cashmere Nail Spa and Couture Manicure" loading="lazy">
+              <span class="service-category-badge">Nail Studio</span>
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-header">
+                <h3 class="service-name">Cashmere Nail Spa &amp; Couture</h3>
+                <span class="service-price">From $95</span>
+              </div>
+              <p class="service-description">
+                Warm botanical milk soak, meticulous Russian cuticle care, shea butter reflexology hand massage, and long-wear non-toxic gel glaze.
+              </p>
+              <div class="service-meta">
+                <span><i class="fa-regular fa-clock"></i> 60 mins</span>
+                <span><i class="fa-solid fa-gem"></i> Non-Toxic Gel</span>
+              </div>
+              <button type="button" class="btn btn-outline-sm select-service-btn" data-service="Cashmere Nail Spa & Couture">
+                <span>Select &amp; Book</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Service Card 4 -->
+          <article class="service-card fade-in-up" data-service-name="Lash Silk & Brow Lamination">
+            <div class="service-card-media">
+              <img src="https://images.unsplash.com/photo-1583001931096-959e9a1a6223?auto=format&fit=crop&w=800&q=80" alt="Lash Silk Extensions and Brow Architecture" loading="lazy">
+              <span class="service-category-badge">Brows &amp; Lashes</span>
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-header">
+                <h3 class="service-name">Lash Silk &amp; Brow Architecture</h3>
+                <span class="service-price">From $140</span>
+              </div>
+              <p class="service-description">
+                Featherlight Japanese silk lash lift or extensions paired with organic keratin brow lamination and custom botanical tint.
+              </p>
+              <div class="service-meta">
+                <span><i class="fa-regular fa-clock"></i> 90 mins</span>
+                <span><i class="fa-solid fa-feather"></i> Ultra-Lightweight</span>
+              </div>
+              <button type="button" class="btn btn-outline-sm select-service-btn" data-service="Lash Silk & Brow Architecture">
+                <span>Select &amp; Book</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Service Card 5 -->
+          <article class="service-card fade-in-up delay-1" data-service-name="Aromatherapy Holistic Body Wrap">
+            <div class="service-card-media">
+              <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80" alt="Aromatherapy Holistic Body Ritual" loading="lazy">
+              <span class="service-category-badge">Wellness Body</span>
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-header">
+                <h3 class="service-name">Aromatherapy Body Ritual</h3>
+                <span class="service-price">From $210</span>
+              </div>
+              <p class="service-description">
+                Warm Himalayan crystal body polish, wild rose and sandalwood wrap, and meditative head massage to melt tension.
+              </p>
+              <div class="service-meta">
+                <span><i class="fa-regular fa-clock"></i> 90 mins</span>
+                <span><i class="fa-solid fa-spa"></i> Full Body Glow</span>
+              </div>
+              <button type="button" class="btn btn-outline-sm select-service-btn" data-service="Aromatherapy Body Ritual">
+                <span>Select &amp; Book</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Service Card 6 -->
+          <article class="service-card fade-in-up delay-2" data-service-name="Bridal & Red Carpet Artistry">
+            <div class="service-card-media">
+              <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80" alt="Bridal & Red Carpet Artistry and Styling" loading="lazy">
+              <span class="service-category-badge">Special Occasion</span>
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-header">
+                <h3 class="service-name">Bridal &amp; Red Carpet Artistry</h3>
+                <span class="service-price">From $250</span>
+              </div>
+              <p class="service-description">
+                Luminous photography-ready makeup, architectural hair sculpture, champagne toast, and an all-day luxury touchup kit.
+              </p>
+              <div class="service-meta">
+                <span><i class="fa-regular fa-clock"></i> 120 mins</span>
+                <span><i class="fa-solid fa-champagne-glasses"></i> Includes Trial</span>
+              </div>
+              <button type="button" class="btn btn-outline-sm select-service-btn" data-service="Bridal & Red Carpet Artistry">
+                <span>Select &amp; Book</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="services-banner-cta fade-in-up">
+          <div class="cta-inner">
+            <div class="cta-text">
+              <h3>Looking for a personalized bridal package or private party buyout?</h3>
+              <p>Our studio concierge will customize an exclusive bespoke schedule for you and your guests.</p>
+            </div>
+            <a href="#contact" class="btn btn-primary cta-btn">
+              <span>Inquire With Concierge</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header text-center fade-in-up">
+          <div class="section-tag">Visual Portfolio</div>
+          <h2 class="section-title">The Bloom Aesthetic</h2>
+          <p class="section-subtitle">
+            An intimate glimpse inside our sunlit studio, handcrafted styles, and moments of calm transformation.
+          </p>
+
+          <!-- Filter Tabs -->
+          <div class="gallery-filters" role="tablist" aria-label="Gallery category filters">
+            <button type="button" class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Works</button>
+            <button type="button" class="filter-btn" data-filter="hair" role="tab" aria-selected="false">Hair Couture</button>
+            <button type="button" class="filter-btn" data-filter="skin" role="tab" aria-selected="false">Skin &amp; Spa</button>
+            <button type="button" class="filter-btn" data-filter="nails" role="tab" aria-selected="false">Nail Art</button>
+            <button type="button" class="filter-btn" data-filter="ambience" role="tab" aria-selected="false">Studio Ambience</button>
+          </div>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          
+          <div class="gallery-item" data-category="ambience" data-title="Sunlit Styling Lounge" data-desc="Minimalist warm tones and organic textures crafted for total serenity.">
+            <div class="gallery-card">
+              <img src="assets/images/gallery-1-lounge.jpg" alt="Sunlit styling lounge with beige leather chairs" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">Studio Ambience</span>
+                <h4 class="gallery-title">Sunlit Styling Lounge</h4>
+                <button type="button" class="gallery-view-btn" aria-label="View Sunlit Styling Lounge in high resolution">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="hair" data-title="Soft Golden Balayage" data-desc="Seamless warm butterscotch dimension with glossy soft waves.">
+            <div class="gallery-card">
+              <img src="assets/images/gallery-2-balayage.jpg" alt="Client with luxurious soft golden balayage waves" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">Hair Couture</span>
+                <h4 class="gallery-title">Soft Golden Balayage</h4>
+                <button type="button" class="gallery-view-btn" aria-label="View Soft Golden Balayage in high resolution">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="skin" data-title="Luminous Botanical Hydration" data-desc="Deep peptide infusion leaving skin hydrated and calm.">
+            <div class="gallery-card">
+              <img src="assets/images/gallery-3-facial.jpg" alt="Facial treatment client with radiant glowing skin" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">Skin &amp; Spa</span>
+                <h4 class="gallery-title">Botanical Hydration Glow</h4>
+                <button type="button" class="gallery-view-btn" aria-label="View Botanical Hydration Glow in high resolution">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="nails" data-title="Minimalist Glazed Almond Nails" data-desc="Clean cuticle architecture with champagne chrome gloss finish.">
+            <div class="gallery-card">
+              <img src="assets/images/gallery-4-nails.jpg" alt="Elegantly manicured glazed almond nails" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">Nail Art</span>
+                <h4 class="gallery-title">Minimalist Glazed Almond Nails</h4>
+                <button type="button" class="gallery-view-btn" aria-label="View Minimalist Glazed Almond Nails in high resolution">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="skin" data-title="Restorative Aromatherapy" data-desc="Holistic essential oils warming in ceramic apothecary bowls.">
+            <div class="gallery-card">
+              <img src="assets/images/gallery-5-aromatherapy.jpg" alt="Aromatherapy massage with warm oils" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">Skin &amp; Spa</span>
+                <h4 class="gallery-title">Restorative Aromatherapy</h4>
+                <button type="button" class="gallery-view-btn" aria-label="View Restorative Aromatherapy in high resolution">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="ambience" data-title="Private Color Bar & Botanicals" data-desc="Curated apothecary shelves with botanical glass dropper bottles.">
+            <div class="gallery-card">
+              <img src="assets/images/gallery-6-color-bar.jpg" alt="Modern beauty salon chair and ambient light" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">Studio Ambience</span>
+                <h4 class="gallery-title">Private Color Bar</h4>
+                <button type="button" class="gallery-view-btn" aria-label="View Private Color Bar in high resolution">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="hair" data-title="Dimensional Copper Auburn" data-desc="Rich warm tones crafted with plant-derived gloss formulas.">
+            <div class="gallery-card">
+              <img src="assets/images/gallery-7-auburn-hair.jpg" alt="Warm dimensional auburn hair styling" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">Hair Couture</span>
+                <h4 class="gallery-title">Dimensional Copper Auburn</h4>
+                <button type="button" class="gallery-view-btn" aria-label="View Dimensional Copper Auburn in high resolution">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="nails" data-title="Milky Oat & Gold Leaf Accent" data-desc="Hand-laid 24k gold leaf foil over sheer milky porcelain polish.">
+            <div class="gallery-card">
+              <img src="assets/images/gallery-8-gold-leaf-nails.jpg" alt="Luxury neutral nail art with gentle accents" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="gallery-category">Nail Art</span>
+                <h4 class="gallery-title">Milky Oat &amp; Gold Leaf</h4>
+                <button type="button" class="gallery-view-btn" aria-label="View Milky Oat & Gold Leaf in high resolution">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section" id="testimonials">
+      <div class="container">
+        
+        <!-- Notice badge clarifying sample nature -->
+        <div class="sample-notice-banner fade-in-up">
+          <i class="fa-solid fa-circle-info"></i>
+          <span><strong>Sample Content Notice:</strong> The testimonials below are fictional review examples created solely for layout and demonstration purposes.</span>
+        </div>
+
+        <div class="section-header text-center fade-in-up">
+          <div class="section-tag">Client Impressions</div>
+          <h2 class="section-title">Words From Our Cherished Guests</h2>
+          <p class="section-subtitle">
+            Read what visitors love about our relaxing atmosphere, customized attention, and lasting beauty results.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          
+          <!-- Testimonial 1 -->
+          <article class="testimonial-card fade-in-up">
+            <div class="testimonial-top">
+              <div class="rating-stars" aria-label="5 out of 5 stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="testimonial-demo-badge">Sample Review</span>
+            </div>
+            <p class="testimonial-quote">
+              "Bloom feels less like a salon and more like a private sanctuary. The signature balayage looked so natural and vibrant even two months later. The chamomile lavender tea while being styled was pure bliss."
+            </p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Sample Portrait of Elena Rostova" class="author-avatar" loading="lazy">
+              <div class="author-info">
+                <h4 class="author-name">Elena Rostova</h4>
+                <span class="author-role">Balayage &amp; Facial Client</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 2 -->
+          <article class="testimonial-card fade-in-up delay-1">
+            <div class="testimonial-top">
+              <div class="rating-stars" aria-label="5 out of 5 stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="testimonial-demo-badge">Sample Review</span>
+            </div>
+            <p class="testimonial-quote">
+              "As someone with sensitive skin, finding a facialist who genuinely understands barrier health is rare. My skin has never looked so dewy and calm. The atmosphere is warm, elegant, and genuinely calming."
+            </p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Sample Portrait of Marcus Vance" class="author-avatar" loading="lazy">
+              <div class="author-info">
+                <h4 class="author-name">Marcus Vance</h4>
+                <span class="author-role">Skin &amp; Scalp Rituals</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 3 -->
+          <article class="testimonial-card fade-in-up delay-2">
+            <div class="testimonial-top">
+              <div class="rating-stars" aria-label="5 out of 5 stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="testimonial-demo-badge">Sample Review</span>
+            </div>
+            <p class="testimonial-quote">
+              "I booked the bridal party suite for my wedding morning. Clara and her team were phenomenal—they kept us ahead of schedule, calm, and every bridesmaid felt like absolute royalty."
+            </p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80" alt="Sample Portrait of Sophia Laurent" class="author-avatar" loading="lazy">
+              <div class="author-info">
+                <h4 class="author-name">Sophia Laurent</h4>
+                <span class="author-role">Bridal Atelier Client</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-wrapper">
+          
+          <!-- Contact Information & Details -->
+          <div class="contact-info-col fade-in-up">
+            <div class="section-tag">Visit &amp; Inquire</div>
+            <h2 class="section-title">Begin Your Personal Beauty Journey</h2>
+            <p class="contact-lead">
+              We look forward to welcoming you to our studio sanctuary. Please reserve your appointment using the inquiry form or reach out directly to our concierge.
+            </p>
+
+            <div class="contact-details-list">
+              
+              <div class="contact-detail-item">
+                <div class="detail-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="detail-content">
+                  <h4>Studio Location</h4>
+                  <p>458 Magnolia Crest Promenade, Suite 200<br>Beverly Hills, CA 90210 <small class="text-muted">(Fictional Address)</small></p>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="detail-content">
+                  <h4>Telephone &amp; Text</h4>
+                  <p><a href="tel:+15557825666">+1 (555) 782-5666</a> <small class="text-muted">(Sample Line)</small></p>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="detail-content">
+                  <h4>Concierge Email</h4>
+                  <p><a href="mailto:concierge@bloombeautystudio.sample">concierge@bloombeautystudio.sample</a></p>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon">
+                  <i class="fa-regular fa-clock"></i>
+                </div>
+                <div class="detail-content">
+                  <h4>Studio Hours</h4>
+                  <ul class="hours-list">
+                    <li><span>Monday – Friday:</span> <span>9:00 AM – 7:30 PM</span></li>
+                    <li><span>Saturday:</span> <span>9:00 AM – 6:00 PM</span></li>
+                    <li><span>Sunday:</span> <span>10:00 AM – 4:00 PM (By Appointment)</span></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Developer Integration Notice Box -->
+            <div class="integration-notice-card">
+              <div class="notice-card-header">
+                <i class="fa-solid fa-code"></i>
+                <strong>Front-End Demo Integration Note</strong>
+              </div>
+              <p>
+                This form currently validates input strictly on the front end. To route messages to a real inbox in production, connect this form to an email service (such as <strong>EmailJS</strong>, <strong>Formspree</strong>, <strong>Resend</strong>, or a custom <strong>Node.js / PHP / Python</strong> backend). Full instructions are outlined in the project README &amp; documentation.
+              </p>
+            </div>
+          </div>
+
+          <!-- Contact / Booking Form -->
+          <div class="contact-form-col fade-in-up delay-1">
+            <div class="form-card">
+              <div class="form-header">
+                <h3 class="form-title">Reservation Inquiry</h3>
+                <p class="form-subtitle">Complete this request and our concierge will contact you within 24 hours.</p>
+              </div>
+
+              <form id="bookingForm" class="booking-form" novalidate>
+                
+                <!-- Full Name -->
+                <div class="form-group">
+                  <label for="fullName">Full Name <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-user input-icon"></i>
+                    <input type="text" id="fullName" name="fullName" placeholder="e.g. Charlotte Dupont" required autocomplete="name">
+                  </div>
+                  <span class="field-error" id="fullNameError" aria-live="polite"></span>
+                </div>
+
+                <!-- Email & Phone in 2 columns -->
+                <div class="form-row">
+                  <div class="form-group col-half">
+                    <label for="emailAddress">Email Address <span class="required">*</span></label>
+                    <div class="input-wrapper">
+                      <i class="fa-regular fa-envelope input-icon"></i>
+                      <input type="email" id="emailAddress" name="emailAddress" placeholder="charlotte@example.com" required autocomplete="email">
+                    </div>
+                    <span class="field-error" id="emailError" aria-live="polite"></span>
+                  </div>
+
+                  <div class="form-group col-half">
+                    <label for="phoneNumber">Phone Number <span class="required">*</span></label>
+                    <div class="input-wrapper">
+                      <i class="fa-solid fa-phone input-icon"></i>
+                      <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="(555) 000-0000" required autocomplete="tel">
+                    </div>
+                    <span class="field-error" id="phoneError" aria-live="polite"></span>
+                  </div>
+                </div>
+
+                <!-- Service Selection & Preferred Date -->
+                <div class="form-row">
+                  <div class="form-group col-half">
+                    <label for="serviceSelect">Service Desired <span class="required">*</span></label>
+                    <div class="input-wrapper select-wrapper">
+                      <i class="fa-solid fa-sparkles input-icon"></i>
+                      <select id="serviceSelect" name="serviceSelect" required>
+                        <option value="" disabled selected>Choose a ritual...</option>
+                        <option value="Artisan Hair Design & Balayage">Artisan Hair Design &amp; Balayage</option>
+                        <option value="Radiance Cellular Facial">Radiance Cellular Facial</option>
+                        <option value="Cashmere Nail Spa & Couture">Cashmere Nail Spa &amp; Couture</option>
+                        <option value="Lash Silk & Brow Architecture">Lash Silk &amp; Brow Architecture</option>
+                        <option value="Aromatherapy Body Ritual">Aromatherapy Body Ritual</option>
+                        <option value="Bridal & Red Carpet Artistry">Bridal &amp; Red Carpet Artistry</option>
+                        <option value="General Beauty Consultation">General Consultation / Custom Combo</option>
+                      </select>
+                    </div>
+                    <span class="field-error" id="serviceError" aria-live="polite"></span>
+                  </div>
+
+                  <div class="form-group col-half">
+                    <label for="preferredDate">Preferred Date <span class="required">*</span></label>
+                    <div class="input-wrapper">
+                      <i class="fa-regular fa-calendar input-icon"></i>
+                      <input type="date" id="preferredDate" name="preferredDate" required>
+                    </div>
+                    <span class="field-error" id="dateError" aria-live="polite"></span>
+                  </div>
+                </div>
+
+                <!-- Preferred Time Window -->
+                <div class="form-group">
+                  <label for="preferredTime">Preferred Time Window</label>
+                  <div class="input-wrapper select-wrapper">
+                    <i class="fa-regular fa-clock input-icon"></i>
+                    <select id="preferredTime" name="preferredTime">
+                      <option value="Morning (9:00 AM - 12:00 PM)">Morning (9:00 AM – 12:00 PM)</option>
+                      <option value="Early Afternoon (12:00 PM - 3:00 PM)" selected>Early Afternoon (12:00 PM – 3:00 PM)</option>
+                      <option value="Late Afternoon / Evening (3:00 PM - 7:00 PM)">Late Afternoon / Evening (3:00 PM – 7:00 PM)</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Message / Special Requests -->
+                <div class="form-group">
+                  <label for="notes">Special Notes or Stylist Preferences</label>
+                  <div class="input-wrapper">
+                    <textarea id="notes" name="notes" rows="4" placeholder="Let us know about allergies, specific hair history, or event dates..."></textarea>
+                  </div>
+                </div>
+
+                <!-- Simulation Disclaimer -->
+                <div class="form-demo-alert">
+                  <i class="fa-solid fa-shield-halved"></i>
+                  <span>Front-end validation active. Submitting will validate and trigger a confirmation preview without contacting a server.</span>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary btn-block submit-btn" id="submitBtn">
+                  <span>Send Reservation Request</span>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-grid">
+        
+        <!-- Brand Summary -->
+        <div class="footer-col footer-brand-col">
+          <a href="#hero" class="brand-logo footer-logo">
+            <span class="logo-symbol">✦</span>
+            <span class="logo-text">
+              <span class="logo-main">BLOOM</span>
+              <span class="logo-sub">BEAUTY STUDIO</span>
+            </span>
+          </a>
+          <p class="footer-about">
+            A sanctuary dedicated to modern beauty rituals, timeless craftsmanship, and restorative organic wellness.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our fictional Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our fictional Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our fictional Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="Visit our fictional TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Atelier</a></li>
+            <li><a href="#services">Services Menu</a></li>
+            <li><a href="#gallery">Visual Gallery</a></li>
+            <li><a href="#testimonials">Guest Reviews</a></li>
+            <li><a href="#contact">Contact &amp; Booking</a></li>
+          </ul>
+        </div>
+
+        <!-- Signature Services -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Signature Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Balayage &amp; Color</a></li>
+            <li><a href="#services">Cellular Radiance Facials</a></li>
+            <li><a href="#services">Cashmere Gel Couture</a></li>
+            <li><a href="#services">Feather Silk Lashes</a></li>
+            <li><a href="#services">Holistic Body Polishes</a></li>
+            <li><a href="#services">Bridal Party Suites</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter & Hours -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Salon Journal</h4>
+          <p class="footer-subtext">Subscribe to receive seasonal treatment previews, beauty rituals, and private salon announcements.</p>
+          <form id="newsletterForm" class="footer-newsletter-form">
+            <div class="newsletter-input-group">
+              <input type="email" id="newsletterEmail" placeholder="Enter your email" required aria-label="Newsletter email address">
+              <button type="submit" aria-label="Subscribe to newsletter"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <span class="newsletter-msg" id="newsletterMsg"></span>
+          </form>
+          <div class="footer-fictional-tag">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <span>Bloom Beauty Studio is a fictional brand created for demonstration.</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright">
+          &copy; <span id="currentYear">2026</span> Bloom Beauty Studio. All rights reserved. Crafted with luxury aesthetics, HTML5, CSS3 &amp; Vanilla JavaScript.
+        </p>
+        <div class="footer-bottom-links">
+          <a href="#hero" class="legal-link">Privacy Policy (Sample)</a>
+          <span class="divider">•</span>
+          <a href="#hero" class="legal-link">Terms of Service (Sample)</a>
+          <span class="divider">•</span>
+          <a href="#hero" class="legal-link">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Gallery -->
+  <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog" aria-label="Image preview">
+    <div class="lightbox-overlay" id="lightboxOverlay"></div>
+    <div class="lightbox-content">
+      <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="lightbox-figure">
+        <img src="" alt="" id="lightboxImg" class="lightbox-img">
+        <div class="lightbox-caption">
+          <span class="lightbox-tag" id="lightboxTag">Category</span>
+          <h3 class="lightbox-title" id="lightboxTitle">Image Title</h3>
+          <p class="lightbox-desc" id="lightboxDesc">Description goes here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Booking Success Confirmation Modal -->
+  <div class="success-modal" id="successModal" aria-hidden="true" role="dialog" aria-label="Inquiry Received">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-dialog">
+      <button type="button" class="modal-close" id="modalClose" aria-label="Close dialog">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-body">
+        <div class="modal-icon-wrap">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <h3 class="modal-title">Inquiry Validated &amp; Recorded</h3>
+        <p class="modal-subtitle">
+          Thank you, <strong id="summaryName">Guest</strong>. Your reservation inquiry passed front-end validation successfully!
+        </p>
+        
+        <div class="inquiry-summary">
+          <h4>Inquiry Summary (Front-End Simulation):</h4>
+          <div class="summary-row">
+            <span>Service:</span>
+            <strong id="summaryService">-</strong>
+          </div>
+          <div class="summary-row">
+            <span>Preferred Date:</span>
+            <strong id="summaryDate">-</strong>
+          </div>
+          <div class="summary-row">
+            <span>Time Window:</span>
+            <strong id="summaryTime">-</strong>
+          </div>
+          <div class="summary-row">
+            <span>Contact Email:</span>
+            <strong id="summaryEmail">-</strong>
+          </div>
+          <div class="summary-row">
+            <span>Phone:</span>
+            <strong id="summaryPhone">-</strong>
+          </div>
+        </div>
+
+        <div class="modal-demo-explanation">
+          <h5><i class="fa-solid fa-bell"></i> What Happens in a Production Website?</h5>
+          <p>
+            Because this is a client-side demo, no HTTP request was sent to a mail server. In a live production environment, this button would transmit a JSON payload to a real backend API (e.g. Node.js/Express, Python Flask/FastAPI, PHP) or third-party email provider (such as <strong>EmailJS</strong>, <strong>Formspree</strong>, or <strong>Resend</strong>) to dispatch an instant email confirmation to you and the salon desk.
+          </p>
+        </div>
+
+        <button type="button" class="btn btn-primary btn-block modal-btn" id="modalCloseBtn">
+          Close Preview Window
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
