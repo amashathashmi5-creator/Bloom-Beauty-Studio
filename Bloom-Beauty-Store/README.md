@@ -18,7 +18,7 @@ A website built with **HTML5, CSS3, and Vanilla JavaScript** for **Bloom Beauty 
 ## 📁 Project Structure
 
 ```text
-Bloom-Beauty-Studio/
+Bloom-Beauty-Store/
 ├── assets/
 │   └── images/       # High-resolution local gallery & studio photography
 ├── index.html        # Semantic HTML5 markup with accessible structures
